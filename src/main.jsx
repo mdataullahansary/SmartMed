@@ -7,6 +7,7 @@ import Home from './Components/Home/Home.jsx'
 import Booking from './Components/Booking/Booking.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import Tracking from './Components/Tracking/Tracking.jsx'
+import AddHospital from './Components/AddHospitals/AddHospital.jsx'
 const router = createBrowserRouter([
   {
     path : '/',
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path : "Tracking",
         element : <Tracking/>
+      },
+      {
+        path : "AddHospital",
+        element : <AddHospital/>
       }
     ]
     
